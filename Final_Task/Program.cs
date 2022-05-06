@@ -13,7 +13,7 @@
 ["Russia", "Denmark", "Kazan"] -> [ ]
 
 */ 
-
+/// Добавляем commit
 
 string[] arrString = {"Russia", "Denmark", "Kazan"};
 
