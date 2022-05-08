@@ -11,6 +11,7 @@
 */
 
 
+
 string[] arrString = {"1234", "1567", "-2", "computer science"};
 
 for (int i = 0; i < arrString.Length; i++)
@@ -33,4 +34,3 @@ for (int i = 0; i < arrString.Length; i++)
     System.Console.Write($"{result}" + " ");
 
 }
-
