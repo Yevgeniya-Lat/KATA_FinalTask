@@ -14,7 +14,7 @@
 
 */
 System.Console.Write("Введите количество строк в  первоначальном массиве:\t");
-int elementsCount = int.Parse(Console.ReadLine());
+int elementsCount = int.Parse(Console.ReadLine()!);
 
 string[][] jagged_arr = new string[elementsCount][];
 
