@@ -15,6 +15,8 @@
 */
 
 
+
+
 void Prompt(string[] array) // ввод элементов массива строк пользователем
 {
     for (int i= 0; i < array.Length; i++)
@@ -38,7 +40,7 @@ void PrintArray(string[] array) // вывод  заданного пользов
 
 }
 
-void SortArray(string[] array) // сортировка массива по длине элемента
+void SortArray(string[] array) // сортировка  элементов массива длина которых меньше либо равна 3 символа
 {
 System.Console.Write("{");
     for (int i = 0; i < array.Length; i++)
@@ -59,7 +61,7 @@ System.Console.Write("{");
             else break;
         }
         System.Console.Write($"{result}" + " ");
-        //System.Console.Write(", ");
+       // System.Console.Write(", ");
     }
        System.Console.Write("}");
 }
